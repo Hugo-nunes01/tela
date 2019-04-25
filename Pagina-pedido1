@@ -1,0 +1,2149 @@
+<html lang="pt-br" id="topo" class=""><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}</style>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<title>Início</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+<script src="https://app.talentweb.com.br/bundles/SignalR?v=y_4IpeeDdgoHqAhjqu2f3QsBnP-e4GuBLMt7WpNZnIM1"></script>
+<script src="https://app.talentweb.com.br/signalr/hubs"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.5.js"></script>
+<link href="https://app.talentweb.com.br//bundles/css?v=oVkjMMJC5kwkX04283XsyZ0nz8eBJgcnnSYgTVtZ8XY1" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="57x57" href="https://app.talentweb.com.br/Content/v2/img/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://app.talentweb.com.br/Content/v2/img/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://app.talentweb.com.br/Content/v2/img/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://app.talentweb.com.br/Content/v2/img/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://app.talentweb.com.br/Content/v2/img/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://app.talentweb.com.br/Content/v2/img/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://app.talentweb.com.br/Content/v2/img/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://app.talentweb.com.br/Content/v2/img/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://app.talentweb.com.br/Content/v2/img/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://app.talentweb.com.br/Content/v2/img/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://app.talentweb.com.br/Content/v2/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="https://app.talentweb.com.br/Content/v2/img/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://app.talentweb.com.br/Content/v2/img/favicon/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+
+<object type="image/svg+xml" data="icone.svg" class="logo"></object>
+
+</head>
+
+<script>
+function itemcancelado() {
+   document.getElementById("pedido-cancelado").style.display = "block"
+}
+
+$(function(){
+var contador = 0;
+    $('div').click(function(i){
+		if(contador === 0)
+    {
+		$(this).addClass('open');        
+		contador = 1;
+	}
+		else 
+	{
+	$(this).removeClass('open');
+	contador = 0;
+	}
+        
+    });
+});
+</script>
+
+<style>
+
+.ultima-atualizacao{
+display:block;
+
+}
+
+.oferta-cupon{
+margin-top:20px;
+-webkit-animation: blink 1s steps(5,start) infinite;
+font-style: italic;
+font-size:10px;
+color: red;
+}
+.lista{
+padding: 10px 20px;
+}
+.integrações{
+display: list-item;
+font-size: 20px;
+}
+
+.icone-integracao{
+margin-right:8px;
+margin-left: 3px;
+
+}
+
+.nota{
+margin-left:4px;
+}
+#pedido-cancelado{
+display: none;
+}
+.contador-de-mensagens{
+color: red;
+}
+.atraso {
+    color: #fff!important;
+    background-color: #ff4040;
+    border-color: #27c24c;
+	display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	margin-top:25px;
+}
+
+ .cancelamento{                
+                
+                top: 20px;   
+                display: inline-block;				
+            
+}
+.icone-cancelamento{
+-webkit-animation: fadeIn 3s ease-in-out;
+                -moz-animation: fadeIn 3s ease-in-out;
+                -o-animation: fadeIn 3s ease-in-out;
+                animation: fadeIn 3s ease-in-out;	
+                float: left;
+                position: relative;
+                top: -1px;
+                margin-right: 2px;
+}
+
+         .upload{
+                -webkit-animation: fadeIn 3s ease-in-out;
+                -moz-animation: fadeIn 3s ease-in-out;
+                -o-animation: fadeIn 3s ease-in-out;
+                animation: fadeIn 3s ease-in-out;	
+                float: left;
+                position: relative;                
+                margin-right: 2px;
+            
+}
+
+.comprovante {
+
+margin-top:10px;
+
+}
+
+.medalha{
+    -webkit-animation: fadeIn 3s ease-in-out;
+    -moz-animation: fadeIn 3s ease-in-out;
+    -o-animation: fadeIn 3s ease-in-out;
+    animation: fadeIn 3s ease-in-out;	
+    position:absolute;   
+    top: 6px;
+        
+		
+}
+.atenção{
+    -webkit-animation: blink 1s steps(5,start) infinite;    
+    position: relative;     
+    top:6px;              
+}
+.atenção2{          
+-webkit-animation: blink 1s steps(5,start) infinite; 
+position: absolute;
+  margin-left: 4px;	
+}
+
+
+
+
+</style>
+
+
+<body ng-app="App" ng-class="ng-cloak" ng-controller="DefaultController" class="ng-scope">
+<div class="app app-header-fixed" ng-class="{'app-aside-folded':!SETTINGS.TabLeft}">
+<!-- header -->
+<header id="header" class="app-header navbar" role="menu">
+<!-- navbar header -->
+<div class="navbar-header bg-dark">
+<button class="pull-right visible-xs dk" ui-toggle-class="show" target=".navbar-collapse">
+<i class="glyphicon glyphicon-cog"></i>
+</button>
+<button class="pull-right visible-xs" ui-toggle-class="off-screen" target=".app-aside" ui-scroll="app">
+<i class="glyphicon glyphicon-align-justify"></i>
+</button>
+<!-- brand -->
+<a href="tela-principal.html" class="navbar-brand text-lt">
+<img src="https://app.talentweb.com.br/Content/v2/img/dashboard/simbolo-talentweb.svg" alt="">
+<span class="hidden-folded m-l-xs"><img src="https://app.talentweb.com.br/Content/v2/img/dashboard/talentweb.svg" alt=""></span>
+</a>
+<!-- / brand -->
+</div>
+<!-- / navbar header -->
+<!-- navbar collapse -->
+<div class="collapse pos-rlt navbar-collapse box-shadow bg-white-only">
+<!-- buttons -->
+<div class="nav navbar-nav hidden-xs">
+<a href="#" class="btn no-shadow navbar-btn" ui-toggle-class="app-aside-folded" target=".app" ng-click="setTabLeft()">
+<i class="fa fa-dedent fa-fw text"></i>
+<i class="fa fa-indent fa-fw text-active"></i>
+</a>
+</div>
+<!-- link and dropdown -->
+<!-- SearchBar -->
+<div class="search-bar animated fadeInDownBig" ng-class="{'animated pulse animation-time-infinite': loadingRedirect}">
+<div class="input-group">
+<div class="input-group-btn">
+<button type="button" class="btn btn-default dropdown-toggle ng-binding" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nº E-commerce <span class="caret"></span></button>
+<ul class="dropdown-menu">
+<li><a href="#" ng-click="setSelect('P','Nº E-commerce')">Nº E-commerce</a></li>
+<li><a href="#" ng-click="setSelect('F','Nº Interno')">Nº Interno</a></li>
+
+</ul>
+</div>
+<input type="text" class="form-control search-bar ng-pristine ng-untouched ng-valid" ng-model="idPesquisa" aria-label="..." ng-keydown="$event.keyCode === 13 &amp;&amp; searchGeral(idPesquisa)" placeholder="busca rápida">
+</div>
+</div>
+<!-- / SearchBar -->
+<!--Botão Novo Pedido-->
+<div class="botao-novo-pedido ng-scope" ng-controller="BotoesRapidosController">
+<a class="btn btn-success" href="" ng-click="modalNovoPedido()">
+<i class="fa fa-file-o" aria-hidden="true"></i> Novo Pedido
+</a>
+</div>
+<!--/Botão Novo Pedido-->
+<!-- Chats Ativos -->
+<div class="display-inline no-bg no-borders no-border no-margin margin-left-15 animated bounceInRight delay-3s">
+<!-- ngRepeat: item in usuariosOnline -->
+</div>
+<!-- Chats Ativos -->
+<!-- nabar right -->
+<ul class="nav navbar-nav navbar-right">
+<li>
+<a href="https://talentweb2.azurewebsites.net/" class="navbar-brand text-lt" tooltip="" data-placement="left" title="" data-original-title="Sistema de Contingência">
+<img src="https://app.talentweb.com.br/Content/v2/img/dashboard/simbolo-talentweb.svg" alt="">
+</a>
+</li>
+<li>
+<a href="/Ticket" class="btn no-shadow" tooltip="" data-placement="left" title="" data-original-title="Tickets">
+<i class="fa fa-bug fa-lg" aria-hidden="true"></i>
+</a>
+</li>
+<!-- fechar chat -->
+<li>
+<a href="#" class="btn no-shadow" ng-click="setTabRight()" ng-class="{'active':!SETTINGS.TabRight}" ui-toggle-class="hide-chat" target=".chat">
+<i class="fa fa-dedent fa-fw text"></i>
+<i class="fa fa-indent fa-fw text-active"></i>
+</a>
+</li>
+<!-- fechar chat -->
+<li class="avatar-menu animated bounceInLeft delay-1s">
+<a href="#" class="clear" data-toggle="modal" data-target="#modalFoto">
+<span class="thumb-user-online avatar pull-right m-t-n-sm m-b-n-sm">
+<img src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-665.png" alt="..." class="img-circle">
+<i class="on md b-white bottom"></i>
+</span>
+</a>
+</li>
+<li class="dropdown">
+<a href="#" data-toggle="dropdown" class="dropdown-toggle clear">
+<span class="hidden-sm hidden-md">Hugo Otavio</span> <b class="caret"></b>
+</a>
+<!-- dropdown -->
+<ul class="dropdown-menu animated fadeInRight w">
+<li>
+<a href="https://app.talentweb.com.br/Manage">Minha Conta</a>
+</li>
+<li>
+<a href="#">
+<form action="https://app.talentweb.com.br/Upload/UploadPictureUsuario" enctype="multipart/form-data" id="imageForm" method="post" class="ng-pristine ng-valid"> <label class="btn btn-primary btn-sm" for="file" style="width: 100%">
+<input id="file" name="file" type="file" style="display: none;">
+Selecionar foto
+</label>
+</form> </a>
+</li>
+<li class="divider"></li>
+<li>
+<a href="https://app.talentweb.com.br/Account/LogOff">Sair</a>
+</li>
+</ul>
+<!-- / dropdown -->
+</li>
+</ul>
+<!-- buttons -->
+<!-- ngIf: loading -->
+<!-- / navbar right -->
+</div>
+<!-- / navbar collapse -->
+</header>
+<!-- / header -->
+<!-- Menu -->
+<aside id="aside" class="app-aside hidden-xs bg-dark">
+<div class="aside-wrap">
+<div class="navi-wrap">
+<!-- nav módulos -->
+<nav ui-nav="" class="navi clearfix">
+<ul class="nav">
+<!-- Atualização de Cadastros -->
+<li>
+<a href="cadastro.html">
+<span class="pull-right text-muted">
+<i class="fa fa-fw fa-angle-down text-active"></i>
+</span>
+<i class="glyphicon glyphicon-list text-muted"></i>
+<span>Atualização de Cadastros</span>
+</a>
+</li>
+<!-- /Atualização de Cadastros -->
+
+<!-- Histórico de Compras -->
+<li>
+<a href="historico-de-compras.html">
+<span class="pull-right text-muted">
+<i class="fa fa-fw fa-angle-down text-active"></i>
+</span>
+<i class="glyphicon glyphicon-list text-muted"></i>
+<span>Histórico de Compras</span>
+</a>
+</li>
+<!-- /Histórico de Compras -->
+
+<!-- Controle de Créditos -->
+<li>
+<a href="https://app.talentweb.com.br/ControleCredito">
+<span class="pull-right text-muted">
+<i class="fa fa-fw fa-angle-down text-active"></i>
+</span>
+<i class="glyphicon glyphicon-shopping-cart text-muted"></i>
+<span>Controle de Créditos</span>
+</a>
+</li>
+<!-- /Controle de Créditos -->
+
+<!-- Cupons Ativos -->
+<li>
+<a href="Cupons-ativos.html">
+<span class="pull-right text-muted">
+<i class="fa fa-fw fa-angle-down text-active"></i>
+</span>
+<i class="glyphicon glyphicon-shopping-cart text-muted"></i>
+<span>Cupons Ativos</span>
+</a>
+</li>
+<!-- /Cupons Ativos -->
+
+
+<!-- Histórico de Eventos - LOG -->
+<li>
+<a href="log-sac.html">
+
+<i class="fa fa-fw fa-angle-down text-active"></i>
+
+<i class="glyphicon glyphicon-stats text-muted"></i>
+<span>Histórico de Eventos - (LOG)</span>
+</a>
+</li>
+<!-- /Histórico de Eventos - LOG -->
+<li class="line dk"></li>
+
+<script>
+
+$(function(){
+var contador = 0;
+    $('li').click(function(i){
+		if(contador === 0)
+    {
+		$(this).addClass('active');        
+		contador = 1;
+	}
+		else 
+	{
+	$(this).removeClass('active');
+	contador = 0;
+	}
+        
+    });
+});
+</script>
+
+<li>
+                                <a href="#" class="auto">
+                                    <span class="pull-right text-muted">
+                                        <i class="fa fa-fw fa-angle-right text"></i>
+                                        <i class="fa fa-fw fa-angle-down text-active"></i>
+                                    </span>
+                                    <i class="integrações"><img src="https://images2.imgbox.com/7c/ac/6ILixP11_o.png" height="18" weight="18"/></i>
+                                    <span>Solicitações</span>
+                                </a>
+                                <ul class="nav nav-sub dk">                                   
+                                    <li class="">
+                                        <a tabindex="0" href="https://atendimento.movidesk.com/kb/pt-br/article/256/movidesk-ticket-api?ticketId=&q=" target="_blank">Localização de Pedidos</a>
+                                    </li>
+                                    <li class="">
+                                        <a tabindex="0" href="https://atendimento.movidesk.com/kb/pt-br/article/256/movidesk-ticket-api?ticketId=&q=" target="_blank">Crédito</a>
+                                    </li>
+                                    <li class="">
+                                        <a tabindex="0" href="https://atendimento.movidesk.com/kb/pt-br/article/256/movidesk-ticket-api?ticketId=&q=" target="_blank">Emissão de NF</a>
+                                    </li>                                 
+
+
+                                </ul>
+                            </li>
+							
+							
+							
+							
+</ul>
+</nav>
+
+
+<!-- nav módulos -->
+<!-- aside footer -->
+<!-- ngIf: infra -->
+<!-- ngIf: infra -->
+<!-- / aside footer -->
+
+</div>
+</div>
+</aside>
+<!-- / Menu -->
+<!-- content -->
+<div id="content" class="app-content" role="main">
+<div class="app-content-body ">
+<div class="hbox hbox-auto-xs hbox-auto-sm">
+<!-- Conteúdo principal -->
+<div class="col">
+                        <div class="wrapper">
+                            
+
+<div ng-controller="ConsultaPedidoController" id="consulta-pedido" data-id="2404240" infinite-scroll="getData()" infinite-scroll-distance="3" class="ng-scope">
+    <div class="row ng-hide" ng-show="flagLoading" style="">
+        <div class="col-md-12 text-center vcenter">
+            <h1 class=" ">
+                <i class="fa fa-cog fa-spin fa-3x fa-fw"></i>
+                <span>Carregando pedido...</span>
+            </h1>
+        </div>
+    </div>
+    
+    <!-- ngIf: pedido && !flagLoading --><div class="row ng-scope" ng-if="pedido &amp;&amp; !flagLoading" ng-class="{'danger':pedido.StatusPedido==1}">
+        <div class="col-md-3 pull-left right">
+            <!-- ngIf: pedido.StatusPedido==1 -->
+            <span class="ng-binding">Pedido Interno: 2404240 </span>
+            <!-- ngIf: !pedido.PedidoTgId -->
+            <span class="ng-binding">Pedido E-commerce: 2245876</span>
+            <span class="ng-binding">Data de Emissão: 15/04/2019 10:42</span>
+            <span class="ng-binding">Data de Importação: 15/04/2019 12:42</span>
+            <span class="ng-binding">Loja: FuturaIm</span>
+            <div class="ng-binding">            
+                 <span><a href="" data-toggle="modal" data-target=".modal-msg">            
+                    <i class="fa fa-comments fa-lg" aria-hidden="true"></i>Mensagens Internas</a>
+					<i class="contador-de-mensagens">(5)</i>
+                    <i class="atenção"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"width="20" height="20"
+		viewBox="0 0 210 210"
+		style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,210v-210h210v210z" fill="none"></path><g fill="#ff0000"><g id="surface1"><path d="M105,8.07692c-53.44651,0 -96.92308,43.47657 -96.92308,96.92308c0,53.44652 43.47657,96.92308 96.92308,96.92308c53.44652,0 96.92308,-43.47656 96.92308,-96.92308c0,-53.44651 -43.47656,-96.92308 -96.92308,-96.92308zM105,24.23077c44.70703,0 80.76923,36.0622 80.76923,80.76923c0,44.70703 -36.0622,80.76923 -80.76923,80.76923c-44.70703,0 -80.76923,-36.0622 -80.76923,-80.76923c0,-44.70703 36.0622,-80.76923 80.76923,-80.76923zM104.24279,48.46154c-8.07692,0 -16.15385,5.61599 -16.15385,16.91106c0,16.97416 8.92879,43.72897 11.35817,50.98558c2.42938,6.46785 8.73948,5.64754 10.34856,0c2.42938,-5.64754 11.42128,-33.22265 10.60096,-50.98558c0,-11.29507 -8.07692,-16.91106 -16.15385,-16.91106zM105,137.30769c-7.25661,0 -12.11538,4.85878 -12.11538,12.11538c0,6.46785 4.85878,12.11538 12.11538,12.11538c7.25661,0 12.11538,-5.64754 12.11538,-12.11538c0,-7.25661 -4.85877,-12.11538 -12.11538,-12.11538z"></path></g></g></g>
+	    <title>Atenção: Mensagens Internas</title>
+	    </svg></i></span>
+        </div>'
+        </div>
+ 
+        <div class="col-md-3 pull-left right">
+        <div class="comprovante">     
+            <span class="ng-binding">Cliente: 47380 - Adriano Dantas dos Santos
+              <i class="medalha"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="25px" height="25px" viewBox="0 0 792 792" style="enable-background:new 0 0 792 792;" xml:space="preserve" class=""><g><g>
+	<path d="M498.917,204.901l-34.369-70.183L398.552,0H177.4l100.335,204.901H498.917z M528.452,185.519L616.828,0H437.59   l9.563,19.534L528.452,185.519z M566.886,379.456c-45.618-45.619-106.328-70.771-170.894-70.771   c-64.55,0-125.23,25.152-170.864,70.771c-45.634,45.665-70.786,106.375-70.786,170.879c0,64.565,25.151,125.275,70.771,170.939   C270.777,766.894,331.442,792,395.977,792c64.565,0,125.275-25.106,170.925-70.756c45.634-45.619,70.756-106.313,70.756-170.909   C637.672,485.8,612.521,425.09,566.886,379.456z M396.007,747.345c-108.618,0-196.979-88.376-196.979-196.979   c0-108.633,88.361-196.995,196.979-196.995c108.633,0,196.995,88.362,196.995,196.995   C593.002,658.969,504.64,747.345,396.007,747.345z M396.007,388.402c-89.145,0.15-161.798,72.803-161.963,161.978   c0.166,89.085,72.834,161.737,161.979,161.889c89.069-0.15,161.738-72.804,161.918-161.934   C557.775,461.205,485.152,388.552,396.007,388.402z M425.917,259.557v-19.293h-59.775v19.293H425.917z" data-original="#000000" class="active-path" data-old_color="#F0BA0C" fill="#F3BB06"/>
+</g></g>
+<title>Cliente Ouro</title>
+</svg></i>
+             
+                   </span>    
+    </div>              
+            <!-- ngIf: pedido.CnpjCpf.length==14 -->
+            <!-- ngIf: pedido.CnpjCpf.length==11 --><span ng-if="pedido.CnpjCpf.length==11" class="ng-binding ng-scope">CPF: 031.589.295-11</span><!-- end ngIf: pedido.CnpjCpf.length==11 -->
+			
+			<span class="ultima-atualizacao">Celular: (71) 98842-0045					
+                    <i class="atenção2"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" 
+						width="18" height="18"
+							viewBox="0 0 210 210"
+								style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,210v-210h210v210z" fill="none"></path><g fill="#666666"><path d="M105,8.4c-53.30096,0 -96.6,43.29904 -96.6,96.6c0,53.30096 43.29904,96.6 96.6,96.6c53.30096,0 96.6,-43.29904 96.6,-96.6c0,-53.30096 -43.29904,-96.6 -96.6,-96.6zM105,16.8c48.76126,0 88.2,39.43874 88.2,88.2c0,48.76126 -39.43874,88.2 -88.2,88.2c-48.76126,0 -88.2,-39.43874 -88.2,-88.2c0,-48.76126 39.43874,-88.2 88.2,-88.2zM99.96328,60.06328c-1.26,0 -1.68164,0.83344 -1.68164,1.67344v56.7c0,1.26 0.84164,1.68164 1.68164,1.68164h9.65508c1.26,0 1.68164,-0.84164 1.68164,-1.68164v-56.7c0,-1.26 -0.84164,-1.67344 -1.68164,-1.67344zM99.96328,135.66328c-1.26,0 -1.68164,0.83344 -1.68164,1.67344v10.92656c0,1.26 0.84164,1.67344 1.68164,1.67344h10.07344c1.26,0 1.68164,-0.83344 1.68164,-1.67344v-10.92656c0,-1.26 -0.84164,-1.67344 -1.68164,-1.67344z"></path></g></g><title>Ultima atualização em 13/07/2017</title></svg>
+					</svg></i>
+			</span>
+            <!-- ngIf: pedido.Celular.length>0 -->
+            <!-- ngIf: pedido.Telefone.length>0 --><span ng-if="pedido.Telefone.length>0" class="ng-binding ng-scope">Telefone: (71) 3347-3807</span><!-- end ngIf: pedido.Telefone.length>0 -->
+            <!-- ngIf: pedido.EmailPrincipal.length>0 -->
+			
+			<span class="ultima-atualizacao">E-mail: falecomadrianoja@gmail.com					
+                    <i class="atenção2"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" 
+						width="18" height="18"
+							viewBox="0 0 210 210"
+								style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,210v-210h210v210z" fill="none"></path><g fill="#666666"><path d="M105,8.4c-53.30096,0 -96.6,43.29904 -96.6,96.6c0,53.30096 43.29904,96.6 96.6,96.6c53.30096,0 96.6,-43.29904 96.6,-96.6c0,-53.30096 -43.29904,-96.6 -96.6,-96.6zM105,16.8c48.76126,0 88.2,39.43874 88.2,88.2c0,48.76126 -39.43874,88.2 -88.2,88.2c-48.76126,0 -88.2,-39.43874 -88.2,-88.2c0,-48.76126 39.43874,-88.2 88.2,-88.2zM99.96328,60.06328c-1.26,0 -1.68164,0.83344 -1.68164,1.67344v56.7c0,1.26 0.84164,1.68164 1.68164,1.68164h9.65508c1.26,0 1.68164,-0.84164 1.68164,-1.68164v-56.7c0,-1.26 -0.84164,-1.67344 -1.68164,-1.67344zM99.96328,135.66328c-1.26,0 -1.68164,0.83344 -1.68164,1.67344v10.92656c0,1.26 0.84164,1.67344 1.68164,1.67344h10.07344c1.26,0 1.68164,-0.83344 1.68164,-1.67344v-10.92656c0,-1.26 -0.84164,-1.67344 -1.68164,-1.67344z"></path></g></g><title>Ultima atualização em 13/07/2017</title></svg>
+					</svg></i>
+			</span>			
+			<!-- end ngIf: pedido.EmailPrincipal.length>0 -->
+            <a href="" data-toggle="modal" data-target=".modal-chat"><span><i class="upload">
+
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15" heigth="15"
+	 viewBox="0 0 327.252 327.252" style="enable-background:new 0 0 327.252 327.252;" xml:space="preserve">
+<path id="XMLID_95_" d="M72.147,199.323L22.903,248.57c-2.148,2.147-4.963,3.222-7.778,3.222s-5.63-1.074-7.778-3.222
+	c-4.296-4.296-4.296-11.261,0-15.557l49.245-49.247c4.296-4.295,11.26-4.295,15.556,0C76.443,188.062,76.443,195.027,72.147,199.323
+	z M97.594,293.686l-14.788,14.788c-4.295,4.296-4.295,11.261,0,15.557c2.148,2.147,4.963,3.222,7.778,3.222s5.63-1.074,7.778-3.222
+	l14.788-14.788c4.296-4.296,4.296-11.261,0-15.557C108.855,289.391,101.89,289.391,97.594,293.686z M314.463,45.988
+	c-1.035,2.593-2.13,5.336-3.258,8.228l-71.764,183.864c-10.198,26.128-17.642,39.855-30.021,42.373
+	c-1.328,0.271-2.613,0.399-3.862,0.399c-9.673,0-17.211-7.72-26.475-17.206c-0.249-0.254-0.5-0.511-0.752-0.77l-115.882,7.585
+	c-4.574,0.294-8.848-2.265-10.738-6.438c-1.89-4.172-0.998-9.078,2.241-12.317l56.633-56.633l-48.538-48.537
+	c-13.977-13.977-22.142-24.97-19.664-36.569c2.723-12.748,15.628-17.672,35.161-25.124c2.597-0.991,5.346-2.04,8.236-3.168
+	L269.645,9.908c26.269-10.251,40.276-13.608,48.843-4.977C327.305,13.817,322.196,26.615,314.463,45.988z M299.695,22.92
+	c-4.147,1.024-10.957,3.152-22.051,7.481L93.78,102.169c-2.945,1.149-5.747,2.219-8.393,3.229
+	c-8.094,3.088-17.991,6.863-21.134,9.371c0.79,1.839,3.572,6.432,13.351,16.211l48.538,48.537l99.271-99.271
+	c4.296-4.295,11.261-4.295,15.557,0c4.295,4.296,4.295,11.261,0,15.557L133.972,202.799c-0.017,0.018-0.035,0.035-0.052,0.053
+	c-0.018,0.018-0.035,0.034-0.053,0.052L90.172,246.6l67.52-4.42l-13.031-13.031c-4.296-4.296-4.296-11.261,0-15.557
+	c2.148-2.147,4.963-3.222,7.778-3.222s5.63,1.074,7.778,3.222l29.488,29.486c1.812,1.812,3.512,3.553,5.118,5.197
+	c3.589,3.675,7.909,8.099,10.462,9.904c2.04-2.316,6.2-8.981,13.662-28.101l71.764-183.863c1.15-2.946,2.266-5.743,3.32-8.384
+	C296,32.9,298.265,27.224,299.695,22.92z"/>
+<g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg></i> Recuperar Senha</span></a>
+		
+			<div class="oferta-cupon">
+							<span>Ofertar cupom:"#nomedocupom".<br> valido até 25/05</span>
+			</div>				
+         
+        </div>
+        <div class="col-md-3 pull-left right">
+            <span class="ng-binding">Valor Total: R$ 112.99</span>
+            <span class="ng-binding">Desconto: R$ 0.00</span>
+            <!-- ngIf: !pedido.PedidoTgId || pedido.DataLiberacaoFinanceiro --><span ng-if="pedido.PedidoTgId &amp;&amp; !pedido.DataLiberacaoFinanceiro" class="danger blink ng-scope">Aguardando pagamento</span><!-- end ngIf: !pedido.PedidoTgId || pedido.DataLiberacaoFinanceiro -->
+            <!-- ngIf: pedido.PedidoTgId && !pedido.DataLiberacaoFinanceiro -->
+            <span class="ng-binding">Valor Crédito: R$ 0.00</span>
+            <span class="ng-binding">Número de Itens: 1</span>
+            <!-- ngRepeat: f in pedido.Titulo.Items --><div ng-repeat="f in pedido.Titulo.Items" class="ng-scope">
+                <!-- ngRepeat: baixa in f.Baixas --><span ng-repeat="baixa in f.Baixas" class="ng-binding ng-scope">Forma de Pgto:Boleto Bancário </span><!-- end ngRepeat: baixa in f.Baixas -->
+
+              <div class="comprovante">             
+             <a><span><i class="upload">
+
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="18" height="18"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<g>
+	<g>
+		<path style="fill:#030104;" d="M27.586,12.712C26.66,10.251,24.284,8.5,21.5,8.5c-0.641,0-1.26,0.093-1.846,0.266
+			C18.068,6.205,15.233,4.5,12,4.5c-4.904,0-8.894,3.924-8.998,8.803C1.207,14.342,0,16.283,0,18.5c0,3.312,2.688,6,6,6h6v-2H5.997
+			C3.794,22.5,2,20.709,2,18.5c0-1.893,1.317-3.482,3.087-3.896C5.029,14.245,5,13.876,5,13.5c0-3.866,3.134-7,7-7
+			c3.162,0,5.834,2.097,6.702,4.975c0.769-0.611,1.739-0.975,2.798-0.975c2.316,0,4.225,1.75,4.473,4h0.03
+			c2.203,0,3.997,1.791,3.997,4c0,2.205-1.789,4-3.997,4H20v2h6c3.312,0,6-2.693,6-6C32,15.735,30.13,13.407,27.586,12.712z"/>
+		<polygon style="fill:#030104;" points="16,13.5 11,19.5 14,19.5 14,27.5 18,27.5 18,19.5 21,19.5 		"/>
+	</g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+
+
+
+          </i>Upload de Comprovante(transfêrencia)</span></a>
+		  </div>
+		  
+		  
+		  <div class="comprovante">             
+             <a><span><i class="upload">
+
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="20" height="20"
+viewBox="0 0 192 192"
+style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#666666"><g id="surface1"><path d="M15.36,0v184.32h92.16c1.38,0.015 2.67,-0.705 3.375,-1.905c0.69,-1.2 0.69,-2.67 0,-3.87c-0.705,-1.2 -1.995,-1.92 -3.375,-1.905h-84.48v-168.96h69.12v53.76h53.76v26.88c-0.015,1.38 0.705,2.67 1.905,3.375c1.2,0.69 2.67,0.69 3.87,0c1.2,-0.705 1.92,-1.995 1.905,-3.375v-32.28l-1.08,-1.2l-53.76,-53.76l-1.2,-1.08zM99.84,13.2l40.56,40.56h-40.56zM138.24,99.84c-21.165,0 -38.4,17.235 -38.4,38.4c0,21.165 17.235,38.4 38.4,38.4c9.195,0 17.625,-3.225 24.24,-8.64l22.92,22.92l5.52,-5.52l-22.92,-22.92c5.415,-6.615 8.64,-15.045 8.64,-24.24c0,-21.165 -17.235,-38.4 -38.4,-38.4zM138.24,107.52c17.01,0 30.72,13.71 30.72,30.72c0,17.01 -13.71,30.72 -30.72,30.72c-17.01,0 -30.72,-13.71 -30.72,-30.72c0,-17.01 13.71,-30.72 30.72,-30.72z"></path></g></g></g></svg>
+
+
+          </i>Visualizar Comprovante</span></a>
+		  </div>
+		  
+		  
+		  <div class="comprovante">             
+             <a><span><i class="upload">
+
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15" heigth="15"
+	 viewBox="0 0 327.252 327.252" style="enable-background:new 0 0 327.252 327.252;" xml:space="preserve">
+<path id="XMLID_95_" d="M72.147,199.323L22.903,248.57c-2.148,2.147-4.963,3.222-7.778,3.222s-5.63-1.074-7.778-3.222
+	c-4.296-4.296-4.296-11.261,0-15.557l49.245-49.247c4.296-4.295,11.26-4.295,15.556,0C76.443,188.062,76.443,195.027,72.147,199.323
+	z M97.594,293.686l-14.788,14.788c-4.295,4.296-4.295,11.261,0,15.557c2.148,2.147,4.963,3.222,7.778,3.222s5.63-1.074,7.778-3.222
+	l14.788-14.788c4.296-4.296,4.296-11.261,0-15.557C108.855,289.391,101.89,289.391,97.594,293.686z M314.463,45.988
+	c-1.035,2.593-2.13,5.336-3.258,8.228l-71.764,183.864c-10.198,26.128-17.642,39.855-30.021,42.373
+	c-1.328,0.271-2.613,0.399-3.862,0.399c-9.673,0-17.211-7.72-26.475-17.206c-0.249-0.254-0.5-0.511-0.752-0.77l-115.882,7.585
+	c-4.574,0.294-8.848-2.265-10.738-6.438c-1.89-4.172-0.998-9.078,2.241-12.317l56.633-56.633l-48.538-48.537
+	c-13.977-13.977-22.142-24.97-19.664-36.569c2.723-12.748,15.628-17.672,35.161-25.124c2.597-0.991,5.346-2.04,8.236-3.168
+	L269.645,9.908c26.269-10.251,40.276-13.608,48.843-4.977C327.305,13.817,322.196,26.615,314.463,45.988z M299.695,22.92
+	c-4.147,1.024-10.957,3.152-22.051,7.481L93.78,102.169c-2.945,1.149-5.747,2.219-8.393,3.229
+	c-8.094,3.088-17.991,6.863-21.134,9.371c0.79,1.839,3.572,6.432,13.351,16.211l48.538,48.537l99.271-99.271
+	c4.296-4.295,11.261-4.295,15.557,0c4.295,4.296,4.295,11.261,0,15.557L133.972,202.799c-0.017,0.018-0.035,0.035-0.052,0.053
+	c-0.018,0.018-0.035,0.034-0.053,0.052L90.172,246.6l67.52-4.42l-13.031-13.031c-4.296-4.296-4.296-11.261,0-15.557
+	c2.148-2.147,4.963-3.222,7.778-3.222s5.63,1.074,7.778,3.222l29.488,29.486c1.812,1.812,3.512,3.553,5.118,5.197
+	c3.589,3.675,7.909,8.099,10.462,9.904c2.04-2.316,6.2-8.981,13.662-28.101l71.764-183.863c1.15-2.946,2.266-5.743,3.32-8.384
+	C296,32.9,298.265,27.224,299.695,22.92z"/> 
+<g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+
+
+          </i>Reenviar Boleto</span></a>
+		  
+        
+        </div>
+               
+            </div><!-- end ngRepeat: f in pedido.Titulo.Items -->
+            
+
+           
+        </div>
+        <div class="col-md-3 pull-left right">
+            <span class="ng-binding">Valor do Frete: R$ 32.56</span>
+            <!-- ngIf: !pedido.FreteId -->
+            <!-- ngIf: pedido.FreteId --><span ng-if="pedido.FreteId" class="ng-binding ng-scope">Prazo do Frete: 7 dia(s)</span><!-- end ngIf: pedido.FreteId -->
+            <span class="ng-binding">Localidade: LPK - Salvador Costa Azul (LPK - PICKUP)</span>
+            <!-- ngIf: pedido.EnderecoLocalidade --><span ng-if="pedido.EnderecoLocalidade" class="ng-binding ng-scope">End. Localidade: Rua Arthur de Azevêdo Machado, 497, Compl.: Shopping Bahia Mar -  Loja 11 -  Global Internet,Costa Azul, Salvador-BA, CEP: 41760000</span><!-- end ngIf: pedido.EnderecoLocalidade -->
+            <!-- ngIf: pedido.GrupoVendas --><span ng-if="pedido.GrupoVendas" class="ng-binding ng-scope">Grupo Vendas: FuturaIM - 11 4674-7676 - Carol Melo</span><!-- end ngIf: pedido.GrupoVendas -->
+            <!-- ngIf: pedido.EnderecoEntrega --><span ng-if="pedido.EnderecoEntrega" class="ng-binding ng-scope">End. de Entrega: Rua Coreia do Norte, 138, Compl.: 2º Andar C/ de Cima,Santa Cruz, Salvador-BA, CEP: 41925215</span><!-- end ngIf: pedido.EnderecoEntrega -->
+        </div>
+    </div><!-- end ngIf: pedido && !flagLoading -->
+    <hr class="divisoria">
+    <div class="row">
+        <div class="col-md-12">
+            <!-- ngRepeat: i in pedido.Items --><div class="media ng-scope" ng-repeat="i in pedido.Items" ng-class="{'danger':i.DataCancelamento}">
+                <!-- ngIf: i.DataCancelamento -->
+				<div Id="pedido-cancelado">
+				<span class="label label-danger ng-binding ng-scope" ng-if="i.DataCancelamento">Item Cancelado</span>
+				</div>
+                <div class="media-left media-middle">
+                    <h5>
+                        <!-- ngIf: i.LinkMiniatura --><img class="miniatura ng-scope" ng-if="i.LinkMiniatura" ng-src="https://talentweb.blob.core.windows.net/miniatura/3a420479-7595-45ce-bbe8-238e6d59d0bd.png" alt="3494272" src="https://talentweb.blob.core.windows.net/miniatura/3a420479-7595-45ce-bbe8-238e6d59d0bd.png"><!-- end ngIf: i.LinkMiniatura -->
+                        <!-- ngIf: !i.LinkMiniatura -->
+                    </h5>
+                </div>
+                <div class="media-body">
+                    <!-- ngIf: i.PedidoItemOrigemNcId -->
+                    <!-- ngIf: i.Tipo==1 -->
+                    <div class="col-md-12">
+                        <!-- ngIf: i.FlagSemPersonalizacao -->
+                        <span class="ng-binding">Prazo de Produção: 2 dia(s) | Previsão de Entrega: 29/04/2019</span>
+                    </div>
+                    <div class="col-md-9">
+                        <span class="ng-binding">Produto: 5582 - 5000 Folhetos - 100x140mm em Couchê Brilho 90g - 4x0 - Sem Verniz - Refile <!-- ngIf: i.AlturaManual>0 --></span>
+                        <!-- ngRepeat: a in i.AcabamentosAdicionais -->
+                    </div>
+                    <div class="col-md-1">
+                        <span class="ng-binding">1 x R$ 112.99</span>
+                    </div>
+                    <div class="col-md-2">
+                        <!-- ngRepeat: n in i.Notas --><div ng-repeat="n in i.Notas" class="ng-scope">
+						<div class="comprovante">
+						
+                            <a ng-href="https://talentweb.blob.core.windows.net/nfe-pdf-1/35190408142850000136550020002029201999999990-nfe.pdf" class="btn-table ng-binding" href="https://talentweb.blob.core.windows.net/nfe-pdf-1/35190408142850000136550020002029201999999990-nfe.pdf">
+                                <i class="fa fa-file-pdf-o fa-lg success" aria-hidden="true"></i> NF: 202920
+                                <!-- ngIf: n.RomaneioId -->
+                                <!-- ngIf: n.StatusNfe==0 -->
+                                <!-- ngIf: n.StatusNfe==1 --><small ng-if="n.StatusNfe==1" class="label label-success ng-scope"> Autorizada </small><!-- end ngIf: n.StatusNfe==1 -->
+                                <!-- ngIf: n.StatusNfe==2 -->
+                                <!-- ngIf: n.StatusNfe==3 -->
+                            </a>
+							<i><a  class="Nota">
+							    
+								<img src="https://img.icons8.com/ios/50/000000/send.png" width="25" heigth="25" title="Reenviar nota autorizada para e-mail"></a></i>
+								
+							
+							</div>
+							
+							
+                        </div><!-- end ngRepeat: n in i.Notas -->
+                        <hr>
+                        <!-- ngIf: i.FlagGerarNota && !flagGerandoNfe && pedido.PedidoTgId -->
+                    
+<div>
+                              <div class="cancelamento">             
+                                  <a onclick="itemcancelado()"><span><i class="icone-cancelamento">
+
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+             width="20" height="20"
+             viewBox="0 0 192 192"
+             style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><g fill="#e74c3c"><path d="M37.65625,26.34375l-11.3125,11.3125l58.34375,58.34375l-58.34375,58.34375l11.3125,11.3125l58.34375,-58.34375l58.34375,58.34375l11.3125,-11.3125l-58.34375,-58.34375l58.34375,-58.34375l-11.3125,-11.3125l-58.34375,58.34375z"></path></g></g></svg>
+
+
+
+          </i>Cancelar Item</span></a> 
+		  
+
+        <a class="Atraso" href="" onclick="">
+					<i class="fa fa-file-o" aria-hidden="true"></i> Notificar Atraso
+				</a>
+
+                            
+</div>	
+
+                        </div>
+						
+						
+				
+						
+			
+                    </div>
+                    <div class="col-md-12">
+                        <div class="padder-md">
+                            <div class="streamline b-l m-b">
+                                <div class="sl-item b-success">
+                                    <div class="m-l">
+                                        <div class="text-muted"><small class="ng-binding">16/04/2019 15:59</small></div>
+                                        <small>Cliente realizou upload do arquivo original <a ng-href="https://www.futuraim.com.br/arquivos/cirilopinturasfinal-16-04-2019_15-59-17-2600.pdf" class="fa fa-cloud-download" aria-hidden="true" href="https://www.futuraim.com.br/arquivos/cirilopinturasfinal-16-04-2019_15-59-17-2600.pdf"></a></small>
+                                        <!-- ngIf: i.ObservacaoCliente -->
+                                    </div>
+                                </div> 
+                                <!-- ngIf: pedido.DataLiberacaoFinanceiro -->
+                                <!-- ngIf: i.StatusArquivo==0 --><div class="sl-item b-info ng-scope" ng-if="i.StatusArquivo==0">
+                                    <div class="m-l">
+                                        <div class="text-muted"><small class="ng-binding">16/04/2019 15:59</small></div>
+                                        <small>Arquivo aguardando análise</small>
+                                    </div>
+                                </div><!-- end ngIf: i.StatusArquivo==0 -->
+                                <!-- ngIf: i.DataRetorno && i.StatusArquivo == 2 -->
+                                <!-- ngIf: i.DataInicioRevisao -->
+                                <!-- ngIf: i.DataFimRevisao -->
+                                <!-- ngIf: i.StatusArquivo == 1 -->
+                                <!-- ngIf: !i.UsuarioRevisao && i.DataRetorno && i.StatusArquivo == 3 -->
+                                <!-- ngIf: i.LoteId -->
+                                <!-- ngIf: i.DataLiberacao -->
+                                <!-- ngIf: i.DataProduzido -->
+                            </div>
+                        </div>
+                       </div>
+                    <!-- ngIf: i.FlagSemPersonalizacao -->
+                    
+                    <!-- ngRepeat: v in i.StatusItem --><div class="col-md-12 ng-scope" ng-repeat="v in i.StatusItem">
+                        <!-- ngIf: !v.DataEntradaExpedicao --><span class="warning blink ng-binding ng-scope" ng-if="!v.DataEntradaExpedicao">Volume: /: Ainda não entrou na expedição</span><!-- end ngIf: !v.DataEntradaExpedicao -->
+                        <!-- ngIf: v.DataEntradaExpedicao -->
+
+                        <!-- ngIf: v.DataEnvio && (v.RomaneioId || v.RomaneioVolumeId) -->
+                        <!-- ngIf: !v.DataEnvio && (v.RomaneioId || v.RomaneioVolumeId) -->
+                        <!-- ngIf: v.DataRecebimento -->
+                        <!-- ngIf: v.DataEntrega -->
+                        <!-- ngIf: v.CodigoRastreioCompleto -->
+                    </div><!-- end ngRepeat: v in i.StatusItem -->
+                    <!-- ngIf: i.StatusProducao -->
+                </div>
+                <hr class="divisoria">
+            </div><!-- end ngRepeat: i in pedido.Items -->
+        </div>
+    </div>
+
+    <div class="modal fade modal-msg" id="modal-msg" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <form name="form" class="ng-pristine ng-valid ng-valid-maxlength">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Mensagens</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row"iv>>
+                            <div class="col-md-12">
+                                <!-- ngRepeat: m in mensagensPorPedido -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <input type="text" class="form-control ng-pristine ng-untouched ng-valid" name="Protocolo" id="Protocolo" ng-model="msg.Protocolo">
+                        <textarea class="form-control noresize ng-pristine ng-untouched ng-valid ng-valid-maxlength" rows="3" name="Mensagem" id="Mensagem" ng-model="msg.Mensagem" ng-maxlength="2000"></textarea>
+                        <button type="button" class="btn btn-default btn-xs" ng-disabled="!msg.Mensagem" ng-click="sendMessage(pedido.PedidoId,msg.Mensagem,msg.Protocolo)" disabled="disabled">Enviar <i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade modal-chat" id="modal-chat" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <form name="form" class="ng-pristine ng-valid ng-valid-maxlength">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Mensagens</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <!-- ngRepeat: m in mensagensPorPedido -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <textarea class="form-control noresize ng-pristine ng-untouched ng-valid ng-valid-maxlength" rows="3" name="Mensagem" id="Mensagem" ng-model="msg.Mensagem" placeholder="Mensagem" ng-maxlength="2000"></textarea>
+                        <button type="button" class="btn btn-default btn-xs" ng-disabled="!msg.Mensagem" placeholder="Mensagem" ng-click="sendMessage(pedido.PedidoId,msg.Mensagem)" disabled="disabled">Enviar <i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+                        </div>
+                    </div>
+<!-- / Conteúdo principal -->
+<!-- chat -->
+<div class="chat col w-md bg-white-only b-l bg-auto no-border-xs show-chat ng-scope" ng-controller="ChatController" ng-class="{'hide-chat':!SETTINGS.TabRight}">
+<div class="tab-content">
+<div role="tabpanel" class="tab-pane active" id="tab-1">
+<div class="wrapper-md box-usuarios-online">
+<div class="margin-top-5">
+<div id="UsuariosAutoComplete" input-name="UsuariosAutoComplete" ng-model="user" angucomplete-alt="" pause="500" selected-object="usuarioSelecionado" remote-url="/Api/Usuario/GetByNameOrEmail/?nome=" remote-url-request-formatter="remoteUrlRequestFnNome" remote-url-data-field="" placeholder="49 usuários online" title-field="Nome" description-field="Usuário" minlength="3" input-class="form-control" match-class="highlight" input-changed="changeAutoComplete" class="ng-pristine ng-untouched ng-valid ng-isolate-scope ng-valid-minlength"><div class="angucomplete-holder" ng-class="{'angucomplete-dropdown-visible': showDropdown}">  <input id="UsuariosAutoComplete_value" name="UsuariosAutoComplete" ng-class="{'angucomplete-input-not-empty': notEmpty}" ng-model="searchStr" ng-disabled="disableInput" type="text" placeholder="49 usuários online" maxlength="524288" ng-focus="onFocusHandler()" class="form-control ng-valid-maxlength" ng-blur="hideResults($event)" autocapitalize="off" autocorrect="off" autocomplete="off" ng-change="inputChangeHandler(searchStr)">  <div id="UsuariosAutoComplete_dropdown" class="angucomplete-dropdown ng-hide" ng-show="showDropdown">    <div class="angucomplete-searching ng-binding ng-hide" ng-show="searching" ng-bind="textSearching">Pesquisando...</div>    <div class="angucomplete-searching ng-binding" ng-show="!searching &amp;&amp; (!results || results.length == 0)" ng-bind="textNoResults">Nenhum resultado encontrado</div>    <!-- ngRepeat: result in results -->  </div></div></div>
+</div>
+<ul class="list-group no-bg no-borders pull-in">
+<!-- ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-117.PNG" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-117.PNG"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-117">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 --><a class="nome-usuario-online animate-color-robo ng-binding ng-scope" ng-if="item.Id==117">Darth Vader</a><!-- end ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 --><small ng-if="item.Id==117" class="text-muted clear ng-scope" id="msg-robo">Trabalhando...</small><!-- end ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-665.png" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-665.png"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-665">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Hugo Otavio</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">SAC</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-1111.jpg" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-1111.jpg"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-1111">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Bruna Moretti</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">PDV Gerencial</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-66.jpeg" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-66.jpeg"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-66">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Jennyfer Santos</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">PDV Gerencial</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-673.jpg" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-673.jpg"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-673">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Paulo Proença</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">PDV Arte Final</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-1143.jpg" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-1143.jpg"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-1143">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Jennifer Souza</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">SAC</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-766.jpg" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-766.jpg"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-766">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Marilia Tahira</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">PDV Gerencial</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-601.jpg" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-601.jpg"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-601">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Thiago Oliveira</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">Impressão Off-Set</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-731.jpg" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-731.jpg"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-731">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Julio Galvao</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">PDV Gerencial</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-984.jpg" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-984.jpg"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-984">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Tamara Dantas</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">SAC</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-65.jpg" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-65.jpg"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-65">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Rafaela Meneguelli</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">PDV Gerencial</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-734.jpg" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-734.jpg"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-734">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Douglas Crispim</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">PDV Arte Final</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-128.JPG" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-128.JPG"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-128">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Janusia Silva</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">PDV Administrativo</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumb-futuraIm.png" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumb-futuraIm.png"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-336">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Ewerton Martins</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">Marketing</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-435.jpg" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-435.jpg"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-435">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Diego Nabeiro</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">CQD - Controle de Qualidade Digital</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-1106.jpg" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-1106.jpg"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-1106">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Marcos Cipriano</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">PDV Arte Final</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-82.jpg" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-82.jpg"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-82">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Ana Albino</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">PDV Gerencial</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumb-futuraIm.png" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumb-futuraIm.png"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-992">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Sandra Alves</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">SAC</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-779.jpeg" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-779.jpeg"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-779">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Estoque Guarulhos</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">Estoque</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumb-futuraIm.png" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumb-futuraIm.png"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-149">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Paulino Sousa</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">Pré Impressão</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-323.jpg" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-323.jpg"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-323">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Lidiane Botelho</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">Logística</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-1041.jpg" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-1041.jpg"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-1041">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Mariana Santana</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">Financeiro</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-741.jpg" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-741.jpg"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-741">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">José Campos</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">PDV Arte Final</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-135.jpg" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-135.jpg"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-135">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Ana Costa</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">PDV Gerencial</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-752.jpg" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-752.jpg"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-752">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Patricia Silva</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">PDV Administrativo</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-198.jpg" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-198.jpg"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-198">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Andreia Goncalves</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">Acabamento</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-106.jpg" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-106.jpg"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-106">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Andreia Silva</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">PDV Administrativo</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-68.jpeg" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-68.jpeg"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-68">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Viviane Henriques</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">PDV Gerencial</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumb-futuraIm.png" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumb-futuraIm.png"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-593">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Fernando Silva</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">Impressão Off-Set</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-1014.jpg" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-1014.jpg"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-1014">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Pamela Araújo</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">PDV Administrativo</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-557.jpg" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-557.jpg"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-557">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Bruno Faria</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">CQT - Controle de Qualidade Total</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumb-futuraIm.png" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumb-futuraIm.png"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-302">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Gisele Carvalho</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">Pré Impressão</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-300.jpg" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-300.jpg"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-300">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Balcão Osasco</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">PDV Arte Final</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumb-futuraIm.png" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumb-futuraIm.png"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-311">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Shirley Rodrigues</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">Expedição</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-169.jpg" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-169.jpg"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-169">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Larissa Almeida</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">Impressão Digital</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-894.png" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-894.png"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-894">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Ewellin Santos</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">CQD - Controle de Qualidade Digital</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-152.jpg" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-152.jpg"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-152">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Claudio Caetano</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">Pré Impressão</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-63.jpg" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-63.jpg"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-63">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Letícia Munhóz</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">PDV Gerencial</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-807.jpg" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-807.jpg"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-807">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Kelly Rodrigues</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">SAC</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-84.JPG" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-84.JPG"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-84">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Estoque </a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">PDV Administrativo</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumb-futuraIm.png" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumb-futuraIm.png"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-474">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Larissa Rocha</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">PDV Administrativo</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumb-futuraIm.png" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumb-futuraIm.png"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-920">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Bruna Monteiro</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">Comercial</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline<=3" class="text-muted animated zoomIn delay-3s ng-scope">Online agora</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-438.jpg" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-438.jpg"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-438">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Lucio Santos</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">PDV Administrativo</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline>3" class="text-muted animated zoomIn delay-3s ng-binding ng-scope">4 minutos atrás</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-819.jfif" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-819.jfif"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-819">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Luis Gustavo</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">Expedição</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline>3" class="text-muted animated zoomIn delay-3s ng-binding ng-scope">4 minutos atrás</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-1063.jpg" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-1063.jpg"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-1063">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Andressa Lilipuziano</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">SAC</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline>3" class="text-muted animated zoomIn delay-3s ng-binding ng-scope">4 minutos atrás</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-1086.jpg" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-1086.jpg"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-1086">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Angela Amarante</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">SAC</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline>3" class="text-muted animated zoomIn delay-3s ng-binding ng-scope">4 minutos atrás</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-97.jpg" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-97.jpg"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-97">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Victor Souza</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">PDV Administrativo</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline>3" class="text-muted animated zoomIn delay-3s ng-binding ng-scope">4 minutos atrás</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-136.jpg" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-136.jpg"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-136">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Adriano Silva</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">PDV Arte Final</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline>3" class="text-muted animated zoomIn delay-3s ng-binding ng-scope">4 minutos atrás</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat --><li class="list-group-item ng-scope animated lightSpeedIn" ng-repeat="item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat" ng-class="{'chat-pendente':item.NumeroMensagens>0, 'animated lightSpeedIn':item.NumeroMensagens==0}">
+<span class="pull-left thumb-user-online avatar m-r" href="#" ui-toggle-class="show" target=".app-aside-right" ng-click="setChatAtivo(item)">
+<!-- ngIf: !item.LinkThumbnail -->
+<!-- ngIf: item.LinkThumbnail --><img ng-if="item.LinkThumbnail" ng-src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-906.jpg" alt="..." class="img-circle ng-scope" src="https://talentweb-cdn.azureedge.net/photo-usuarios/thumbnail-906.jpg"><!-- end ngIf: item.LinkThumbnail -->
+<!-- ngIf: item.FlagOnline --><i class="on b-white bottom ng-scope" ng-class="{'talent animated pulse animation-time-infinite': item.Id<4, 'diretoria':item.Id==547 || item.Id==548}" ng-if="item.FlagOnline"></i><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</span>
+<div class="clear" ng-class="{'animated shake animation-time-infinite slower':item.NumeroMensagens>0}" id="detalhes-chat-906">
+<!-- ngIf: item.Id==3 -->
+<!-- ngIf: item.Id==1 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 --><a class="nome-usuario-online ng-binding ng-scope" ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=548 &amp;&amp; item.Id!=117">Haroldo Santos</a><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=548 && item.Id!=117 -->
+<!-- ngIf: item.NumeroMensagens>1 -->
+<!-- ngIf: item.NumeroMensagens==1 -->
+<!-- ngIf: item.NumeroMensagens==0 --><div ng-if="item.NumeroMensagens==0" class="ng-scope">
+<!-- ngIf: item.Id==547 || item.Id==548 -->
+<!-- ngIf: item.Id==117 -->
+<!-- ngIf: item.Id<4 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117" class="text-muted nome-usuario-online animated zoomIn clear ng-binding ng-scope">CQD - Controle de Qualidade Digital</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 -->
+<!-- ngIf: item.FlagOnline --><div ng-if="item.FlagOnline" class="ng-scope">
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline<=3 -->
+<!-- ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 --><small ng-if="item.Id>4 &amp;&amp; item.Id!=547 &amp;&amp; item.Id!=117 &amp;&amp; item.TempoOnline>3" class="text-muted animated zoomIn delay-3s ng-binding ng-scope">4 minutos atrás</small><!-- end ngIf: item.Id>4 && item.Id!=547 && item.Id!=117 && item.TempoOnline>3 -->
+</div><!-- end ngIf: item.FlagOnline -->
+<!-- ngIf: !item.FlagOnline -->
+</div><!-- end ngIf: item.NumeroMensagens==0 -->
+</div>
+</li><!-- end ngRepeat: item in usuariosOnline | orderBy:'OrdemGeral' | filter:queryChat -->
+</ul>
+</div>
+</div>
+</div>
+</div>
+<!-- / chat -->
+</div>
+</div>
+</div>
+<!-- /content -->
+<!-- footer -->
+<footer id="footer" class="app-footer" role="footer">
+<div class="wrapper b-t bg-light">
+<span class="text muted">Versão 2.0.9.3</span>
+</div>
+</footer>
+<!-- / footer -->
+</div>
+
+
+
+</body></html>
